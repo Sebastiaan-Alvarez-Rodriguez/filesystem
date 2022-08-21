@@ -4,7 +4,7 @@ Added meson wrap for [filesystem](https://github.com/gulrak/filesystem).
 
 ## Usage
 
-Create `<root-project>/subprojects/filesystem.wrap`, containing:
+To use the latest released filesystem wrap version, create `<root-project>/subprojects/filesystem.wrap`, containing:
 ```
 [wrap-file]
 directory = filesystem-1.5.12
@@ -17,3 +17,5 @@ patch_url = https://github.com/Sebastiaan-Alvarez-Rodriguez/filesystem/archive/r
 patch_filename = 1.5.12.zip
 patch_hash = 8467ae14aba9a60a15d5ca51bb3d732170ad627ee96382d4e39671c0e342b49b
 ```
+
+To use older releases, check the instructions in the release notes [here](https://github.com/Sebastiaan-Alvarez-Rodriguez/filesystem/releases).
